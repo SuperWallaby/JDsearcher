@@ -1,0 +1,15 @@
+@import "~@janda-com/front/build/scss/style_config.scss";
+@import "~@janda-com/front/build/scss/components/dayPicker/DayPicker.scss";
+
+// 시스템 작동상 필수 부
+.JDdisplay-none .DayPicker  {
+    display: none!important;
+}
+
+.JDresvSearcher__input {
+    opacity: 0;
+    position: absolute;
+    width: 1px;
+    height: 1px;
+}
+

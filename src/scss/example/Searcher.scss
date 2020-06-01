@@ -1,0 +1,224 @@
+
+.JDresvSearcher {
+    display:flex;
+    width: 90%;
+    max-width: 680px;
+}
+
+.JDresvSearcher__In {
+    display:flex
+}
+.DayPicker-box {
+    width: 100%;
+    position: relative;
+  }
+  
+  .JDresvSearcher__countBoxWrap {
+      background-color:white;
+  }
+.JDresvSearcher__countsTitle {
+    display: block;
+    font-size: 15px;
+    text-align: left;
+    font-weight: 600;
+    font-family: "Open Sans Bold",Noto-lang-Bold,"Malgun Gothic",sans-serif;
+}
+
+.JDresvSearcher__filterTitle {
+    display: flex;
+    font-size: 13px;
+    font-weight: bold;
+    color: #999;
+    text-align: left;
+    line-height: 17px;
+}
+
+  
+  
+.JDresvSearcher__filtersWrap {
+    flex: 1 1;
+    display:flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+.JDresvSearcher__countBoxWrap {
+    position: absolute;
+    top: calc(100% + 1.5rem);
+    padding: 14px 20px 10px;
+    border: 1px solid #eee;
+}
+
+.JDresvSearcher__filterBox {
+}
+
+
+.JDresvSearcher__nights {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    color: #999;
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 33px;
+}
+
+.JDresvSearcher__weekDay {
+    width: max-content;
+}
+.JDresvSearcher__filterValue {
+    font-size: 33px;
+    font-weight: bold;
+    color: #333;
+    text-align: left;
+    display: inline-block;
+}
+
+.JDresvSearcher__dateWrap {
+    display:flex;
+    align-items: center;
+}
+.JDresvSearcher__dateElseWrap {
+    display: flex;
+    font-size: 13px;
+    font-weight: bold;
+    color: #999;
+    text-align: left;
+    display: inline-block;
+    width: 45%;
+    line-height: 17px;
+}
+
+
+  .JDresvSearcher { 
+      display: flex;
+      position: relative;
+      text-align: center;
+      background: #fff;
+      border: 10px solid #e39f0e;
+      padding: 12px 20px;
+      box-sizing: border-box;
+  }
+
+  .JDresvSearcher__datesWrap {
+      flex: 1 1;
+   display: flex;   
+   justify-content: space-around;
+   border-right: 1px solid #eee;
+  }
+
+  .JDresvSearcher__dateBoxTitle {
+    display: block;
+    text-align: left;
+    color: #999;
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 33px;
+    &::after {
+        padding-left: 8px;
+        content: "\f1cb";
+    }
+  }
+  
+  .JDresvSearcher__day {
+        font-size: 33px;
+      font-weight: bold;
+      color: #333;
+      text-align: left;
+      padding-right: 0.3rem;
+      display: inline-block;
+  }
+  
+  
+  .JDresvSearcher__searchBtn {
+        font-size: 15px;
+      font-weight: bold;
+      color: #fff;
+      padding: 10px !important;
+      line-height: 48px;
+      height: auto;
+      width: 90px;
+      background: #242b3e;
+      text-align: center;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border-style: none;
+      cursor: pointer;
+      box-sizing: border-box;
+  }
+  .JDresvSearcher__countersWrap {
+      display: flex;
+        margin: 1rem 0;
+  }
+
+  .JDcounter {
+      padding: .5rem;
+      &:first-child {
+          padding-left: 0;
+      }
+      &:last-child {
+          padding-right: 0;
+      }
+  }
+
+
+  
+.JDcounter__inner {
+    display:flex;
+    border: 1px solid #bbb;
+    justify-content: space-between;
+    
+    .JDbtn {
+        width: max-content;
+        border: none;
+        background: none;
+
+        &:first-child {
+            width: 40px;
+            height: 40px;
+            border-right: 1px solid #bbb;
+            display:flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 0;
+
+            &:before {
+                content: "";
+                height: 1px;
+                width: 12px;
+                background-color: #999;
+                display:"block"
+            }
+        }
+        &:last-child {
+            &:after {
+                content: '';
+                display: block;
+                width: 12px;
+                height: 1px;
+                margin: 0 auto;
+                background-color: #999;
+            }
+            &:before {
+                content: "";
+                display: block;
+                width: 12px;
+                height: 1px;
+                background-color: #999;
+                margin: -1px auto;
+                transform: rotate(90deg);
+                width: 12px;
+                background-color: #999;
+                height: 1px;
+            }
+            width: 40px;
+            height: 40px;
+            border-left: 1px solid #bbb;
+            font-size: 0;
+        }
+    }
+}
+
+
