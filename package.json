@@ -4,7 +4,7 @@
   "private": true,
   "dependencies": {
     "@janda-com/front": "^2.0.13",
-    "moment": "^2.26.0",
+    "moment": "^2.29.4",
     "react": "^16.13.0",
     "react-app-polyfill": "^1.0.6",
     "react-day-picker": "^7.4.8",
